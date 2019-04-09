@@ -9,3 +9,7 @@
   tasks:
     - nxos_facts:
 
+    - nxos_vlan:
+        vlan_id: 2001
+
+    - nxos_facts:
