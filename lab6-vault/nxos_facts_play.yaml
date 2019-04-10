@@ -2,7 +2,7 @@
 
 - name: Gather Nexus Facts
   hosts: nxos
-  connection: httpapi
+  connection: network_cli
   gather_facts: yes
 
   tasks:
